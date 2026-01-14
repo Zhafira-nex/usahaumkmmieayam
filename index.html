@@ -3,250 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mie Ayam Corner</title>
+    <title>Mie Ayam Mantap</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
             background-color: #fff8f0;
             color: #333;
-            background-image: url('https://via.placeholder.com/1920x1080/ffe0b2/333?text=Mie+Ayam+Background'); /* Tema mie ayam dengan background placeholder */
-            background-size: cover;
-            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
         }
         header {
-            background-color: #c62828;
+            background-color: #ff6b3c;
             color: white;
-            padding: 20px;
             text-align: center;
-            background-image: url('https://via.placeholder.com/800x200/c62828/fff?text=Mie+Ayam+Corner'); /* Header dengan tema mie ayam */
-            background-size: cover;
+            padding: 20px 0;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #ffa270;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
         }
         section {
             padding: 20px;
-            max-width: 900px;
-            margin: auto;
-            background-color: rgba(255, 255, 255, 0.9); /* Semi-transparan untuk kontras */
-            border-radius: 8px;
-            margin-bottom: 20px;
-        }
-        h2 {
-            color: #c62828;
-            border-bottom: 2px solid #c62828;
-            padding-bottom: 5px;
         }
         .menu-item {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-bottom: 1px dashed #ccc;
-            padding: 8px 0;
-        }
-        .menu-item img {
-            width: 80px;
-            height: 80px;
+            background-color: #fff3e0;
+            margin: 10px 0;
+            padding: 10px;
             border-radius: 8px;
-            margin-right: 15px;
-            object-fit: cover;
         }
-        .menu-name-price {
-            display: flex;
-            flex-direction: column;
-            flex-grow: 1;
-        }
-        .highlight {
+        .contact, .address {
             background-color: #ffe0b2;
             padding: 15px;
             border-radius: 8px;
-            margin: 20px 0;
+            margin-top: 20px;
         }
         footer {
-            background-color: #c62828;
-            color: white;
             text-align: center;
             padding: 15px;
-            margin-top: 30px;
-        }
-        .btn {
-            display: inline-block;
-            background-color: #c62828;
+            background-color: #ff6b3c;
             color: white;
-            padding: 10px 18px;
-            text-decoration: none;
-            border-radius: 6px;
-            margin-top: 10px;
-        }
-        .btn:hover {
-            background-color: #a71d1d;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>🍜 Mie Ayam Corner</h1>
-    <p>Lezat • Murah • Porsi Mantap</p>
+    <h1>Mie Ayam Mantap 🍜</h1>
+    <p>Rasakan kenikmatan mie ayam spesial kami!</p>
 </header>
 
-<section>
-    <h2>Tentang Kami</h2>
-    <p>
-        Mie Ayam Corner menyajikan mie ayam dengan cita rasa khas, 
-        bahan segar, dan harga terjangkau. Cocok untuk makan siang, 
-        makan malam, atau pesan online.
-    </p>
+<nav>
+    <a href="#menu">Menu</a>
+    <a href="#alamat">Alamat</a>
+    <a href="#kontak">Kontak</a>
+</nav>
 
-    <div class="highlight">
-        <strong>📍 Alamat:</strong><br>
-        Jl. KS Tubun III RT 05 / RW 04 No. 12
-    </div>
-
-    <a href="#" class="btn">📍 Lihat di Google Maps</a>
-</section>
-
-<section>
-    <h2>Menu Mie Ayam</h2>
+<section id="menu">
+    <h2>Daftar Menu</h2>
 
     <div class="menu-item">
-        <img src="https://via.placeholder.com/80x80/ffe0b2/333?text=Mie+Ayam+Polos" alt="Mie Ayam Polos">
-        <div class="menu-name-price">
-            <span>Mie Ayam Polos</span>
-            <span>Rp12.000</span>
-        </div>
+        <strong>Mie Ayam Original</strong> – Rp10.000
     </div>
     <div class="menu-item">
-        <img src="https://via.placeholder.com/80x80/ffe0b2/333?text=Mie+Ayam+Bakso" alt="Mie Ayam Bakso (1 bakso)">
-        <div class="menu-name-price">
-            <span>Mie Ayam Bakso (1 bakso)</span>
-            <span>Rp12.000</span>
-        </div>
-    </div>
-
-    <div class="menu-item">
-        <img src="https://via.placeholder.com/80x80/ffe0b2/333?text=Mie+Ayam+Original" alt="Mie Ayam Original">
-        <div class="menu-name-price">
-            <span>Mie Ayam Original</span>
-            <span>Rp14.000</span>
-        </div>
+        <strong>Mie Ayam Bakso</strong> – Rp12.000
     </div>
     <div class="menu-item">
-        <img src="https://via.placeholder.com/80x80/ffe0b2/333?text=Mie+Ayam+Ceker" alt="Mie Ayam Ceker">
-        <div class="menu-name-price">
-            <span>Mie Ayam Ceker</span>
-            <span>Rp14.000</span>
-        </div>
+        <strong>Mie Ayam Pangsit</strong> – Rp12.000
     </div>
     <div class="menu-item">
-        <img src="https://via.placeholder.com/80x80/ffe0b2/333?text=Mie+Ayam+Jamur" alt="Mie Ayam Jamur">
-        <div class="menu-name-price">
-            <span>Mie Ayam Jamur</span>
-            <span>Rp14.000</span>
-        </div>
-    </div>
-
-    <div class="menu-item">
-        <img src="https://via.placeholder.com/80x80/ffe0b2/333?text=Mie+Ayam+Bakso" alt="Mie Ayam Bakso">
-        <div class="menu-name-price">
-            <span>Mie Ayam Bakso</span>
-            <span>Rp15.000</span>
-        </div>
+        <strong>Mie Ayam Telur</strong> – Rp11.000
     </div>
     <div class="menu-item">
-        <img src="https://via.placeholder.com/80x80/ffe0b2/333?text=Mie+Ayam+Pangsit" alt="Mie Ayam Pangsit Rebus">
-        <div class="menu-name-price">
-            <span>Mie Ayam Pangsit Rebus</span>
-            <span>Rp15.000</span>
-        </div>
-    </div>
-
-    <div class="menu-item">
-        <img src="https://via.placeholder.com/80x80/ffe0b2/333?text=Mie+Ayam+Bakso+Pangsit" alt="Mie Ayam Bakso + Pangsit">
-        <div class="menu-name-price">
-            <span>Mie Ayam Bakso + Pangsit</span>
-            <span>Rp17.000</span>
-        </div>
+        <strong>Mie Ayam Jamur</strong> – Rp13.000
     </div>
     <div class="menu-item">
-        <img src="https://via.placeholder.com/80x80/ffe0b2/333?text=Mie+Ayam+Jamur+Bakso" alt="Mie Ayam Jamur Bakso">
-        <div class="menu-name-price">
-            <span>Mie Ayam Jamur Bakso</span>
-            <span>Rp17.000</span>
-        </div>
-    </div>
-
-    <div class="menu-item">
-        <img src="https://via.placeholder.com/80x80/ffe0b2/333?text=Mie+Ayam+Komplit" alt="Mie Ayam Komplit">
-        <div class="menu-name-price">
-            <span>Mie Ayam Komplit</span>
-            <span>Rp18.000</span>
-        </div>
+        <strong>Mie Ayam Level 1</strong> (sedikit pedas) – Rp11.000
     </div>
     <div class="menu-item">
-        <img src="https://via.placeholder.com/80x80/ffe0b2/333?text=Mie+Ayam+Pedas" alt="Mie Ayam Pedas Level">
-        <div class="menu-name-price">
-            <span>Mie Ayam Pedas Level</span>
-            <span>Rp18.000</span>
-        </div>
+        <strong>Mie Ayam Level 2</strong> (pedas sedang) – Rp12.000
     </div>
-
     <div class="menu-item">
-        <img src="https://via.placeholder.com/80x80/ffe0b2/333?text=Mie+Ayam+Spesial" alt="Mie Ayam Spesial">
-        <div class="menu-name-price">
-            <span><strong>Mie Ayam Spesial</strong></span>
-            <span><strong>Rp20.000</strong></span>
-        </div>
+        <strong>Mie Ayam Level 3</strong> (pedas hot) – Rp13.000
+    </div>
+    <div class="menu-item">
+        <strong>Paket Hemat:</strong> Mie Ayam + Es Teh / Teh Hangat – Rp15.000
     </div>
 </section>
 
-<section>
-    <h2>Menu Tambahan</h2>
-    <div class="menu-item">
-        <img src="https://via.placeholder.com/80x80/ffe0b2/333?text=Bakso+Satuan" alt="Bakso Satuan">
-        <div class="menu-name-price">
-            <span>Bakso Satuan</span>
-            <span>Rp3.000</span>
-        </div>
-    </div>
-    <div class="menu-item">
-        <img src="https://via.placeholder.com/80x80/ffe0b2/333?text=Pangsit+Rebus" alt="Pangsit Rebus">
-        <div class="menu-name-price">
-            <span>Pangsit Rebus</span>
-            <span>Rp3.000</span>
-        </div>
-    </div>
-    <div class="menu-item">
-        <img src="https://via.placeholder.com/80x80/ffe0b2/333?text=Pangsit+Goreng" alt="Pangsit Goreng">
-        <div class="menu-name-price">
-            <span>Pangsit Goreng</span>
-            <span>Rp3.000</span>
-        </div>
-    </div>
-    <div class="menu-item">
-        <img src="https://via.placeholder.com/80x80/ffe0b2/333?text=Ceker" alt="Ceker">
-        <div class="menu-name-price">
-            <span>Ceker</span>
-            <span>Rp3.000</span>
-        </div>
-    </div>
-    <div class="menu-item">
-        <img src="https://via.placeholder.com/80x80/ffe0b2/333?text=Extra+Ayam" alt="Extra Ayam">
-        <div class="menu-name-price">
-            <span>Extra Ayam</span>
-            <span>Rp4.000</span>
-        </div>
-    </div>
+<section id="alamat" class="address">
+    <h2>Alamat Kami</h2>
+    <p>Jalan KS Tubun III, RT 05 / RW 04, No. 12</p>
+    <p>Kota [Nama Kota], [Kode Pos]</p>
 </section>
 
-<section>
-    <h2>Media Sosial</h2>
-    <p>
-        📸 Instagram / TikTok:<br>
-        <strong>@mieayamcorner</strong>
-    </p>
+<section id="kontak" class="contact">
+    <h2>Hubungi Kami</h2>
+    <p>Instagram / Facebook / TikTok: <strong>@MieAyamMantap</strong></p>
+    <p>Telp: [Isi Nomor Telepon]</p>
 </section>
 
 <footer>
-    <p>© 2026 Mie Ayam Corner | Mie Ayam Enak, Harga Bersahabat</p>
+    &copy; 2026 Mie Ayam Mantap. Selalu Mantap Rasanya!
 </footer>
 
 </body>
